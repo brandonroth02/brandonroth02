@@ -10,6 +10,7 @@ h1 {
   text-shadow: 1px 1px;
   margin-bottom: 3px;
   margin-top: 5px;
+  color: firebrick;
 }
 h2 {
   text-align: center;
@@ -28,10 +29,12 @@ h2 {
   width: 100%;
   height: 60px;
   margin-top: -6px;
+  display: block;
+
 }
 
 .navbar ul {
-  margin-left: 500px;
+ margin-right: 1000px;
   
 }
 
@@ -39,5 +42,32 @@ h2 {
   display: inline;
   line-height: 60px;
 }
+
+li a {
+  display: block;
+  width: 60px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+
+.navbar ul li a:hover{
+  color: white;
+
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-image: url(ynMtrY.jpg);
+  background-size: cover;
+  }
+
+  .header img{
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    border-radius: 20px;
+  }
 
   
